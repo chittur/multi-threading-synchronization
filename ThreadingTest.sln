@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadingTest", "ThreadingTest\ThreadingTest.csproj", "{9D829D91-CA58-496B-85A1-13F64B53EDD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C0B9FD8-F707-48A5-A629-B279F30DD2E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CONTRIBUTING.md = CONTRIBUTING.md
+		License.txt = License.txt
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D829D91-CA58-496B-85A1-13F64B53EDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D829D91-CA58-496B-85A1-13F64B53EDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D829D91-CA58-496B-85A1-13F64B53EDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D829D91-CA58-496B-85A1-13F64B53EDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC66A27E-2AC6-4EA5-A10F-67FA4C8D1EB6}
+	EndGlobalSection
+EndGlobal
