@@ -16,7 +16,7 @@ namespace ThreadingTest
     internal class MultiThreadingWithSynchronization
     {
         // This is the object that will be used to synchronize access to the shared variable.
-        private readonly object syncLock = new ();
+        private readonly object _syncLock = new ();
 
         // This is the shared variable that will be incremented by multiple threads.
         private int _totalWithSynchronization = 0;
@@ -38,7 +38,7 @@ namespace ThreadingTest
             thread3.Join();
 
             int total;
-            lock (syncLock)
+            lock (_syncLock)
             {
                 total = _totalWithSynchronization;
             }
@@ -57,7 +57,7 @@ namespace ThreadingTest
                 // Note: You could use Interlocked.Increment for incrementing the shared integer variable.
                 //       See https://learn.microsoft.com/en-us/dotnet/api/system.threading.interlocked.increment?view=net-7.0
                 //       However lock is more a generic solution.
-                lock (syncLock)
+                lock (_syncLock)
                 {
                     _totalWithSynchronization++;
                 }
